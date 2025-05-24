@@ -1,6 +1,7 @@
 :root {
   --green: #6CB71D;
   --black: #333333;
+  --gray: #BDBEC0;
 }
 
 * {
@@ -44,4 +45,11 @@ a {
   font-weight: 400;
   font-size: 16px;
   line-height: 16px;
+}
+
+.line {
+  height: 1px;
+  width: 100%;
+  background-color: var(--gray); 
+  margin-top: 18px;
 }
