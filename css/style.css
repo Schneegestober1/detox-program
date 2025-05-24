@@ -15,6 +15,7 @@ a {
   text-decoration: none;
 }
 
+
 /* Header */
 .header {
   padding-left: calc(50% - 580px);
@@ -52,4 +53,44 @@ a {
   width: 100%;
   background-color: var(--gray); 
   margin-top: 18px;
+}
+
+
+/* Main */
+
+/* Nav */
+.nav {
+  padding-left: calc(50% - 580px);
+  padding-right: calc(50% - 580px);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.menu {
+  width: 510px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.menu p {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 16px;
+}
+
+.cart {
+  width: 130px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.cart a {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+  color: var(--black);
 }
