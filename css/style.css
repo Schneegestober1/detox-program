@@ -169,3 +169,12 @@ a {
   transform: scale(1.1);
 }
 
+.swiper-button-next,
+.swiper-button-prev {
+  color: var(--white) !important;
+  width: calc(var(--swiper-navigation-size) / 6 * 27) !important;
+}
+
+.swiper-pagination-bullet {
+  background: var(--white) !important;
+}

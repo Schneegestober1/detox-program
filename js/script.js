@@ -9,15 +9,11 @@ document.addEventListener('DOMContentLoaded', () => {
 			enabled: true,
 			clickable: true,
 		},
-		  navigation: {
+		navigation: {
 			nextEl: '.swiper-button-next',
 			prevEl: '.swiper-button-prev',
-  		},
+		},
 	});
 	
 })
 
-document.querySelector('.hamburger').addEventListener('click', function(){
-	this.classList.toggle('is-active')
-	document.querySelector('main').classList.toggle('is-active')
-})
