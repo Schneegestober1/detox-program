@@ -30,20 +30,20 @@ a {
   margin-top: 22px;
 }
 
-.info__item-city {
+.info-item__city {
   font-weight: 400;
   font-size: 16px;
   line-height: 16px;
 }
 
-.info__item-phone {
+.info-item__phone {
   font-weight: 500;
   font-size: 16px;
   line-height: 16px;
   color: var(--black);
 }
 
-.info__item-hours {
+.info-item__hours {
   font-weight: 400;
   font-size: 16px;
   line-height: 16px;
@@ -81,6 +81,7 @@ a {
   font-weight: 400;
   font-size: 18px;
   line-height: 16px;
+  cursor: pointer;
 }
 
 .cart {
@@ -108,7 +109,7 @@ a {
   display: block;
 }
 
-.banner__item {
+.banner-item {
   position: absolute;
   top: 50%;
   left: 30%;
@@ -117,7 +118,7 @@ a {
   text-align: center;
 }
 
-.banner__item h2 {
+.banner-item h2 {
   font-weight: 800;
   font-size: 64px;
   line-height: 64px;
@@ -126,10 +127,10 @@ a {
   text-align: left;
 }
 
-.banner__item h2 span {
+.banner-item h2 span {
   color: var(--green);
 }
-.banner__item h3 {
+.banner-item h3 {
   font-weight: 500;
   font-size: 14px;
   line-height: 21px;
@@ -137,11 +138,11 @@ a {
   text-transform: uppercase;
   text-align: left;
 }
-.banner__item h3 span {
+.banner-item h3 span {
   font-size: 24px;
   font-weight: 700;
 }
-.banner__item button {
+.banner-item button {
   width: 175px;
   height: 44px;
   border-radius: 10px;
@@ -155,17 +156,17 @@ a {
   letter-spacing: 0%;
 }
 
-.banner__button {
+.banner-button {
   display: flex;
   margin-top: 18px;
 }
 
-.banner__button button {
+.banner-button button {
   cursor: pointer;
   transition: all 0.5s;
 }
 
-.banner__button button:hover{
+.banner-button button:hover{
   transform: scale(1.1);
 }
 
