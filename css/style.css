@@ -2,6 +2,7 @@
   --green: #6CB71D;
   --black: #333333;
   --gray: #BDBEC0;
+  --white: #FFFFFF;
 }
 
 * {
@@ -54,11 +55,12 @@ a {
   background-color: var(--gray); 
   margin-top: 18px;
 }
+/* Header end */
 
 
 /* Main */
 
-/* Nav */
+/* Nav start */
 .nav {
   padding-left: calc(50% - 580px);
   padding-right: calc(50% - 580px);
@@ -94,3 +96,76 @@ a {
   line-height: 16px;
   color: var(--black);
 }
+
+/* Banner */
+.swiper-slide {
+  position: relative;
+}
+
+.swiper-slide img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.banner__item {
+  position: absolute;
+  top: 50%;
+  left: 30%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-align: center;
+}
+
+.banner__item h2 {
+  font-weight: 800;
+  font-size: 64px;
+  line-height: 64px;
+  letter-spacing: 3%;
+  text-transform: uppercase;
+  text-align: left;
+}
+
+.banner__item h2 span {
+  color: var(--green);
+}
+.banner__item h3 {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px;
+  letter-spacing: 3%;
+  text-transform: uppercase;
+  text-align: left;
+}
+.banner__item h3 span {
+  font-size: 24px;
+  font-weight: 700;
+}
+.banner__item button {
+  width: 175px;
+  height: 44px;
+  border-radius: 10px;
+  outline: 0;
+  border: 0;
+  background: var(--green);
+  color: var(--white);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 18px;
+  letter-spacing: 0%;
+}
+
+.banner__button {
+  display: flex;
+  margin-top: 18px;
+}
+
+.banner__button button {
+  cursor: pointer;
+  transition: all 0.5s;
+}
+
+.banner__button button:hover{
+  transform: scale(1.1);
+}
+
