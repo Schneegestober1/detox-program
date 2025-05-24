@@ -1,0 +1,47 @@
+:root {
+  --green: #6CB71D;
+  --black: #333333;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Header */
+.header {
+  padding-left: calc(50% - 580px);
+  padding-right: calc(50% - 580px);
+}
+
+.info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 22px;
+}
+
+.info__item-city {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+}
+
+.info__item-phone {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 16px;
+  color: var(--black);
+}
+
+.info__item-hours {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+}
