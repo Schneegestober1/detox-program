@@ -335,8 +335,15 @@ a {
   justify-content: center;
 }
 
+
+/* Terms-of-Delivery */
 .terms-delivery {
   padding-left: calc(50% - 580px);
   padding-right: calc(50% - 580px);
   margin-top: 92px;
+}
+
+.map {
+  max-width: 582px;
+  max-height: 466px;
 }

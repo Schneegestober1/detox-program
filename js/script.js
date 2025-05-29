@@ -14,6 +14,18 @@ document.addEventListener('DOMContentLoaded', () => {
 			prevEl: '.swiper-button-prev',
 		},
 	});
-	
 })
 
+ymaps.ready(function() {
+	const map = new ymaps.Map('ya-map', {
+		center: [55.751574, 37.573856],
+		zoom: 10
+	});
+
+	const placemark = new ymaps.Placemark([55.751574, 37.573856],{
+		hintContent: 'Мы здесь!',
+		balloonContent: 'Офис доставки'
+	})
+
+	map.geoObjects.add(placemark)
+})
