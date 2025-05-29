@@ -344,6 +344,6 @@ a {
 }
 
 .map {
-  max-width: 582px;
-  max-height: 466px;
+  width: 582px;
+  height: 466px;
 }
