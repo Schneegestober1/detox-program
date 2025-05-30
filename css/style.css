@@ -172,12 +172,12 @@ li {
   margin-top: 18px;
 }
 
-.banner-button button {
+ button {
   cursor: pointer;
   transition: all 0.5s;
 }
 
-.banner-button button:hover{
+ button:hover{
   transform: scale(1.1);
 }
 
@@ -427,6 +427,7 @@ li {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   margin-bottom: 30px;
+
 }
 
 .footer-line {
@@ -435,6 +436,23 @@ li {
   margin: 0 auto; 
 }
 
-.rights {
+.rights-box {
   background: var(--dark-gray);
+  padding-left: calc(50% - 580px);
+  padding-right: calc(50% - 580px); 
+  display: flex;
+  justify-content: space-between;
+  margin-top: 22px;
+  padding-bottom: 26px;
+}
+
+.rights-box h4, .rights-box p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: var(--white);
+}
+
+.rights-box img {
+  width: 20px;
 }
